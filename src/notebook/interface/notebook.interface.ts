@@ -1,4 +1,4 @@
-export class CreateNotebookDto {
+export interface Notebook {
   title: string;
   content: string;
   createdAt: Date;

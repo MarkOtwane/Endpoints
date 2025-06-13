@@ -4,7 +4,7 @@ import { UpdateNotebookDto } from './dto/update-notebook.dto';
 
 @Injectable()
 export class NotebookService {
-  create(createNotebookDto: CreateNotebookDto) {
+  create(_createNotebookDto: CreateNotebookDto) {
     return 'This action adds a new notebook';
   }
 
@@ -16,7 +16,7 @@ export class NotebookService {
     return `This action returns a #${id} notebook`;
   }
 
-  update(id: number, updateNotebookDto: UpdateNotebookDto) {
+  update(id: number, _updateNotebookDto: UpdateNotebookDto) {
     return `This action updates a #${id} notebook`;
   }
 
